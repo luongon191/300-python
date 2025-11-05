@@ -12,4 +12,4 @@ try:
     result = check_number(number)
     print(result)
 except ValueError:
-    print("Vui lòng nhập một số nguyên hợp lệ.")
+    print("Vui lòng nhập một số nguyên hợp lệ.")    
