@@ -7,10 +7,10 @@ def check_number(n):
         return "Số bạn nhập là số không (không phải dương cũng không phải âm)."
 
 
-try:
+if __name__ == "__main__":
     number = int(input("Nhập một số nguyên: "))
     result = check_number(number)
     print(result)
-except ValueError:
-    print("Vui lòng nhập một số nguyên hợp lệ.")    
+
+    
     
